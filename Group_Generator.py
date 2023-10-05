@@ -7,12 +7,7 @@ import pandas as pd
 st.set_page_config(
     page_title="Regenerator Group",
     initial_sidebar_state="expanded",
-    page_icon="🧠",
-    menu_items={
-        'Get Help': 'https://github.com/xtekky/gpt4free/blob/main/README.md',
-        'Report a bug': "https://github.com/xtekky/gpt4free/issues",
-        'About': "### gptfree GUI",
-    },layout="wide",
+    layout="wide",
 )
 st.markdown("<h1 style='text-align: center; color: white;'>Regenerator Group</h1><br><br>", unsafe_allow_html=True)
 
