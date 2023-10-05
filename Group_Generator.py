@@ -40,4 +40,4 @@ df = pd.DataFrame(
    acak,
    columns=('Kelompok %d' % i for i in range(1,6)))
 
-st.dataframe(df,hide_index=True,width=3000)  # Same as st.write(df)
+st.dataframe(df,hide_index=True,width=3000)
